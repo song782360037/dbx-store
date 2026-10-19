@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.song782360037.alertmanage",
+  "publisher": "song782360037",
+  "version": "0.1.0",
+  "name": "AlertManage",
+  "description": "Alertmanager operations workbench: alert triage, silences, notification routing, status and configuration.",
+  "icon": "https://raw.githubusercontent.com/song782360037/dbx-plugin-alertmanage/v0.1.0/assets/plugin.svg",
+  "tags": [
+    "alertmanager",
+    "prometheus",
+    "alerts",
+    "silencing",
+    "monitoring",
+    "ops"
+  ],
+  "permissions": [],
+  "source": "https://github.com/song782360037/dbx-plugin-alertmanage/tree/v0.1.0",
+  "homepage": "https://github.com/song782360037/dbx-plugin-alertmanage",
+  "license": "Apache-2.0",
+  "releaseNotes": "0.1.0: first release. Alert overview and filtering, silence creation/edit/expiry, notification routing and receivers, status/config views, and a connection-level management toggle.",
+  "localizations": {
+    "zh-CN": {
+      "name": "AlertManage",
+      "description": "Alertmanager 告警管理插件：告警查看与处理、静默规则、通知与路由、状态与配置。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/song782360037/dbx-plugin-alertmanage/releases/download/v0.1.0/io.github.song782360037.alertmanage-0.1.0-darwin-arm64.dbxp",
+      "sha256": "7f8bb49fcb5c1bcb55fab49481e2f21f5fce84fc45b896b92488874688b984c5",
+      "size": 5153984
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/song782360037/dbx-plugin-alertmanage/releases/download/v0.1.0/io.github.song782360037.alertmanage-0.1.0-darwin-x64.dbxp",
+      "sha256": "c20454eaaf450701b579a2731c4c07ff505542b91613997abfc792616d2178d3",
+      "size": 5492990
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/song782360037/dbx-plugin-alertmanage/releases/download/v0.1.0/io.github.song782360037.alertmanage-0.1.0-linux-arm64.dbxp",
+      "sha256": "c81a4b605f53b5c683febcb3b31b60a75817062a917442167820bf366c192b5b",
+      "size": 4932756
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/song782360037/dbx-plugin-alertmanage/releases/download/v0.1.0/io.github.song782360037.alertmanage-0.1.0-linux-x64.dbxp",
+      "sha256": "5a5f9c2aa9ce3515c7ef1436595c0ce9515b1a9b703b4021f0ea4ccd6186f67f",
+      "size": 5378058
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/song782360037/dbx-plugin-alertmanage/releases/download/v0.1.0/io.github.song782360037.alertmanage-0.1.0-windows-x64.dbxp",
+      "sha256": "d6e99d1ced1603d2770101c85cbf9eefef7068657d45c890b25b2719cb47698b",
+      "size": 5375620
+    }
+  ]
+}

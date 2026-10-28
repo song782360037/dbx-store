@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "id": "io.github.song782360037.agenthub",
   "publisher": "song782360037",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "Agent Hub",
   "description": "Cross-agent local Skills and MCP manager: scan Claude Code, Codex, Qoder, Trae, WorkBuddy and Pi; install skills from GitHub or archives; manage MCP server configs.",
-  "icon": "https://raw.githubusercontent.com/song782360037/dbx-plugin-agenthub/v0.1.0/assets/plugin.svg",
+  "icon": "https://raw.githubusercontent.com/song782360037/dbx-plugin-agenthub/v0.1.1/assets/plugin.svg",
   "tags": ["skills", "mcp", "agent", "claude-code", "codex", "qoder", "trae", "workbuddy", "pi", "git"],
   "permissions": [],
-  "source": "https://github.com/song782360037/dbx-plugin-agenthub/tree/v0.1.0",
+  "source": "https://github.com/song782360037/dbx-plugin-agenthub/tree/v0.1.1",
   "homepage": "https://github.com/song782360037/dbx-plugin-agenthub",
   "license": "Apache-2.0",
-  "releaseNotes": "0.1.0: local skill inventory, GitHub/ZIP/local import, center library, multi-client sync, drift detection, update checks, and MCP server config management.",
+  "releaseNotes": "0.1.1: declares the read-only skills_list, skills_search and skills_get MCP tools for external clients; ships LICENSE and third-party OFL notice. Local skill inventory, GitHub/ZIP/local import, center library, multi-client sync, drift detection, update checks, and MCP server config management.",
   "localizations": {
     "zh-CN": {
       "name": "Agent Hub",
@@ -21,33 +21,33 @@
   "targets": [
     {
       "target": "darwin-arm64",
-      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.0/io.github.song782360037.agenthub-0.1.0-darwin-arm64.dbxp",
-      "sha256": "0d3ce08c46d079c7bb49186f0b75ba5d64e14b7067af31f2fb4db9e8ec25c855",
-      "size": 5972383
+      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.1/io.github.song782360037.agenthub-0.1.1-darwin-arm64.dbxp",
+      "sha256": "d5c1db67a7c66827354d68176a699665012851b90035f30570010ee26788d09e",
+      "size": 5978724
     },
     {
       "target": "darwin-x64",
-      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.0/io.github.song782360037.agenthub-0.1.0-darwin-x64.dbxp",
-      "sha256": "19ebe1fcb775ac45486cba64b2a568c89a1b2b4995c051132a7d687e31efb519",
-      "size": 6369451
+      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.1/io.github.song782360037.agenthub-0.1.1-darwin-x64.dbxp",
+      "sha256": "3eaae5cecc347cb33456e8ccdc557cd338a8af0fa982dc6dd0716436e589dd9b",
+      "size": 6375810
     },
     {
       "target": "linux-arm64",
-      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.0/io.github.song782360037.agenthub-0.1.0-linux-arm64.dbxp",
-      "sha256": "c380df578ed12eb6165748e9d15d022ddac549326b2f3fc02994152468bf665f",
-      "size": 5703097
+      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.1/io.github.song782360037.agenthub-0.1.1-linux-arm64.dbxp",
+      "sha256": "f1d1c3a5a0f020a53eb143255d9db278e114a705ad1dc22f12cfc1eee1d0e8a9",
+      "size": 5709446
     },
     {
       "target": "linux-x64",
-      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.0/io.github.song782360037.agenthub-0.1.0-linux-x64.dbxp",
-      "sha256": "ca242e87e6a5a14bff8abdb8057da19b96b405746d62ca052f2b9692fa606f19",
-      "size": 6223923
+      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.1/io.github.song782360037.agenthub-0.1.1-linux-x64.dbxp",
+      "sha256": "289bdd53ec3297c3e484949ba73747dec542fa3857aee516d751fabb1a340b81",
+      "size": 6230273
     },
     {
       "target": "windows-x64",
-      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.0/io.github.song782360037.agenthub-0.1.0-windows-x64.dbxp",
-      "sha256": "8ef5df6cceec6255486c595b9b7f58aac2baa999596d293d7f73d4b1b29780a4",
-      "size": 6334244
+      "url": "https://github.com/song782360037/dbx-plugin-agenthub/releases/download/v0.1.1/io.github.song782360037.agenthub-0.1.1-windows-x64.dbxp",
+      "sha256": "be50ad775c47c0996e1abe42e62d946858ba54abd5d5f3c24b21d28e0f3e2600",
+      "size": 6340652
     }
   ]
 }
